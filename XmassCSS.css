@@ -1,0 +1,114 @@
+    img[class^='avatar']{
+        content: url('https://i.pinimg.com/originals/e1/6a/da/e16ada3f199cf7fca0dbe9b807c3f05c.gif');
+    }
+
+    img[class^='icon-27yU2q']{
+        content: url('https://i.pinimg.com/originals/e1/6a/da/e16ada3f199cf7fca0dbe9b807c3f05c.gif');
+    }
+
+    span[class^='username']
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    span[class^='username']::after
+    {
+        color: red;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Padoru";
+    }
+
+
+    span[class^='roleColor']
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    span[class^='roleColor']::after
+    {
+        color: red;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Padoru";
+    }
+
+    h2[class^="members"] span
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    h2[class^="members"] span::after
+    {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "Padoru";
+    }
+
+
+    span[class^="emojiContainer"] img
+    {
+        content: url('https://i.pinimg.com/originals/e1/6a/da/e16ada3f199cf7fca0dbe9b807c3f05c.gif');
+    }
+
+
+
+    img[class^="pngImage-33yLRP stickerAsset-13j1W0"]
+    {
+        content: url('https://i.pinimg.com/originals/e1/6a/da/e16ada3f199cf7fca0dbe9b807c3f05c.gif');
+    }
+
+    div[class^="activityText"]
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    div[class^="activityText"]::after
+    {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "HASHIRE SORI YO KAZE NO YOU NI TSUKIMIHARA WO PADORU PADORU";
+    }
+
+    div[class^="overflow"]
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    div[class^="overflow"]::after
+    {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "PADORU";
+    }
+
+    div[class^="channelName"]
+    {
+        visibility: hidden;
+        position: relative;
+    }
+
+    div[class^="channelName"]::after
+    {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "PADORU";
+    }
+
